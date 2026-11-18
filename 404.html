@@ -3,10 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Jean Sedov — Fotografía</title>
-  <link rel="canonical" href="https://www.jeansedov.com/">
-  <script>location.replace("https://www.jeansedov.com" + location.pathname + location.search + location.hash);</script>
-  <meta http-equiv="refresh" content="0;url=https://www.jeansedov.com/">
+  <meta name="robots" content="noindex">
+  <title>404 · Jean Sedov</title>
+  <script>
+    if (/^\/(disk|__admin|admin)(\/|$)/.test(location.pathname)) {
+      location.replace('https://www.jeansedov.com' + location.pathname + location.search + location.hash);
+    }
+  </script>
 </head>
-<body><a href="https://www.jeansedov.com/">Jean Sedov — Fotografía</a></body>
+<body><main><h1>404</h1><a href="/">Jean Sedov · Fotografía</a></main></body>
 </html>

@@ -1,0 +1,123 @@
+.route-hidden{display:none!important}
+.service-cover{position:relative;height:100svh;min-height:520px;overflow:hidden;background:#161719;color:white;display:grid;place-items:center}.service-cover>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}.service-shade{position:absolute;inset:0;background:#0005}.service-cover h1{position:relative;font:400 clamp(40px,5vw,68px) 'Playfair Display',Georgia,serif}.service-cover>a{position:absolute;bottom:25px;left:50%;font-size:28px;transform:translateX(-50%)}
+.session-page{background:#161719;color:#ddd;padding-top:72px;min-height:100vh}.session-mosaic{display:block;width:100%;height:auto}.session-inner{padding:70px 4% 90px}.session-inner h1,.session-inner h2{font:400 clamp(24px,3vw,38px)/1.35 'Playfair Display',Georgia,serif;text-align:center;margin:0 0 20px}.session-details{display:grid;grid-template-columns:1fr 2fr;gap:6%;margin:65px auto 0;max-width:1450px;color:#aaa;font-size:14px;line-height:1.8}.session-details ul{margin:0;padding-left:20px}.session-draft{color:#aaa;border-top:1px solid #444;padding-top:20px;margin-top:50px;font-size:13px}.reviews-section{min-height:100vh;padding-top:130px}.reference-header .nav a[aria-current=page]:after{transform:scaleX(1)}
+@media(max-width:700px){.reference-header .nav{gap:6px 10px}.reference-header .nav a,.reference-header .nav button{font-size:9px}.session-page{padding-top:72px}.session-inner{padding:55px 6%}.session-details{grid-template-columns:1fr;gap:20px;margin-top:35px}.service-cover{min-height:500px}}
+@media(max-width:700px){.reference-header{padding:12px 3%}.reference-header .nav{width:100%;flex-wrap:nowrap;gap:4px;justify-content:space-between}.reference-header .nav a,.reference-header .nav button{font-size:9px;white-space:nowrap}.reference-header .nav select{min-width:42px;width:42px;padding:6px 3px;font-size:10px}.session-page{padding-top:60px}}
+@media(max-width:350px){.reference-header .nav{flex-wrap:wrap;justify-content:center}.session-page{padding-top:100px}}
+
+.overlay .story-cover{position:relative;height:100svh;background:#a4a4a4;margin:-30px -4.35% 60px;display:flex;align-items:center;justify-content:center}.overlay .story-cover[hidden]{display:none}.story-cover img{display:block;width:100%;height:100%;object-fit:contain}.story-cover>button{position:absolute;bottom:22px;left:4%;color:white;background:none;border:0;font-size:28px;cursor:pointer}.overlay.has-cover .close{position:fixed;right:4%;top:18px;background:#111b;z-index:3}@media(max-width:700px){.overlay .story-cover{margin:-20px -3.2% 40px}.overlay.has-cover .close{right:3%}}
+.reference-header{z-index:30}.overlay.has-cover .close{z-index:32}.overlay .story-cover img{width:87.5%;height:100%;object-fit:cover;object-position:center}
+@media(max-width:700px){.overlay .story-cover img{width:100%}}
+.overlay .close,.overlay.has-cover .close{position:fixed;right:3%;top:90px;z-index:32;background:#111b;color:white}
+@media(max-width:700px){.overlay .close,.overlay.has-cover .close{top:70px}}
+@media(max-width:700px){.reference-header{padding:14px 4%}.reference-header .nav{flex-wrap:wrap;gap:4px 15px;justify-content:center}.reference-header .nav a,.reference-header .nav button{font-size:10px;line-height:1.25}.reference-header .nav select{min-width:42px;min-height:30px;width:42px;font-size:10px}.session-page{padding-top:105px}.overlay .close,.overlay.has-cover .close{top:112px}}
+.review-avatar{width:clamp(120px,16vw,196px);height:clamp(120px,16vw,196px);border-radius:50%;background:#323538;display:flex;align-items:center;justify-content:center;font:32px 'Playfair Display',serif;color:#ddd;margin:0 auto 22px;overflow:hidden}.review-avatar img{width:100%;height:100%;object-fit:cover}.review-card strong{margin:0 0 14px}.review-card p{margin:0}
+.custom-page{background:#161719;color:#dedede;min-height:100vh;padding:140px max(5%,calc((100% - 1100px)/2)) 90px}.custom-page h1{font:400 clamp(36px,5vw,60px)/1.15 'Playfair Display',serif;text-align:center;margin:0 0 55px}.custom-page p{font-size:16px;line-height:1.75;white-space:pre-wrap;margin:35px 0}.custom-page img{display:block;max-width:100%;height:auto;margin:35px auto}
+/* Wfolio Leto's original light palette and typefaces. */
+@font-face{font-family:ForumLocal;src:url('fonts/forum-latin.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+0000-00FF,U+0100-024F,U+2000-206F,U+20A0-20CF}
+@font-face{font-family:ForumLocal;src:url('fonts/forum-cyrillic.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+0400-052F,U+2DE0-2DFF,U+A640-A69F}
+@font-face{font-family:UbuntuLocal;src:url('fonts/ubuntu-latin.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+0000-00FF,U+0100-024F,U+2000-206F,U+20A0-20CF}
+@font-face{font-family:UbuntuLocal;src:url('fonts/ubuntu-cyrillic.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+0400-052F,U+2DE0-2DFF,U+A640-A69F}
+body{background:#fff;color:#1e1e1e;font-family:UbuntuLocal,Arial,sans-serif}.reference-about,.section,.wedding-packages,.reviews-section,#extras,.session-page,.custom-page,.overlay,footer{background:#fff;color:#1e1e1e}
+.reference-about h2,.title,.album h3,.package h3,.card h3,.session-inner h1,.session-inner h2,.custom-page h1,.review-card strong,.cover-title h1,.service-cover h1{font-family:ForumLocal,Georgia,serif;font-weight:400}.reference-about h2{font-size:24px}.reference-about p{font-size:14px;line-height:1.5}.reference-about{padding:0 4%;gap:4%;min-height:700px}.reference-about img{width:100%;height:auto}
+.sectionhead p,.wedding-packages p,.reviews-sub,.review-translation,.card p,.session-details,.session-draft,.package small,.album p{color:#656565}.album,.package,.package:nth-child(3),.review-card{color:#1e1e1e}.review-card{background:transparent!important}.reviews-more{color:#1e1e1e;border-color:#1e1e1e}.reviews-more:hover{background:#1e1e1e;color:#fff}.session-draft,footer{border-color:#ddd}.review-avatar{background:#eee;color:#555}.review-card strong{font-family:ForumLocal,Georgia,serif}.photo-row img{background:transparent}
+.reference-header{background:#fff;color:#1e1e1e;backdrop-filter:none}.reference-header.on-cover{background:transparent;color:#fff}.reference-header select{color:inherit}.reference-header .nav a:after{background:currentColor}.series-menu,.series-menu button{background:#fff;color:#1e1e1e}.series-menu button{font-family:UbuntuLocal,Arial,sans-serif}.overlay .close,.overlay.has-cover .close{background:#fff;color:#1e1e1e}.story-cover img{filter:brightness(.8)}.photo-viewer{background:rgba(0,0,0,.96)}
+@media(max-width:700px){.reference-hero{height:100svh}.reference-about{min-height:0;padding:45px 6%}.session-page{padding-top:105px}}
+.photo-viewer .viewer-prev,.photo-viewer .viewer-next{top:50%;transform:translateY(-50%);right:auto;left:16px;padding:12px;font-size:42px;line-height:1;text-shadow:0 1px 6px #000}.photo-viewer .viewer-next{left:auto;right:16px}.photo-viewer button:disabled{opacity:.25;cursor:default}.viewer-count{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:#fff;font-size:13px;text-shadow:0 1px 6px #000}@media(max-width:700px){.photo-viewer .viewer-prev{left:0}.photo-viewer .viewer-next{right:0}}
+/* Wfolio opens the review grid without a large introductory headline. */
+.reviews-section>.eyebrow,.reviews-section>.title{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.reviews-sub{font-size:13px}.review-translation{margin:6px auto}.reviews-grid{margin-top:50px}
+.overlay>.eyebrow,.overlay>#albumTitle,.overlay>#count{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}.overlay:not(.has-cover){padding-top:140px}@media(max-width:700px){.overlay:not(.has-cover){padding-top:120px}}
+/* Language selector stays visible at the top right, including on narrow screens. */
+.reference-header #language{position:absolute;right:4%;top:18px;width:130px;max-width:130px;min-width:0;min-height:34px;padding:4px 5px;font-size:12px;letter-spacing:0;text-transform:none;color:inherit;background:rgba(0,0,0,.2);border-radius:4px;cursor:pointer}
+.reference-header #language option{color:#222;background:#fff}
+@media(max-width:700px){.reference-header .nav{padding-right:102px;justify-content:center}.reference-header #language{right:3%;top:10px;width:96px;max-width:96px;min-width:0;min-height:30px;font-size:11px}}
+
+/* Home cover slideshow: the original image stays in place as a fallback. */
+.reference-hero > img.hero-slide { position:absolute; inset:0; opacity:0; transition:opacity 1.4s ease-in-out; }
+.reference-hero > img.hero-slide.is-visible { opacity:1; }
+.reference-hero .cover-shade, .reference-hero .cover-title { z-index:1; }
+@media (prefers-reduced-motion: reduce) { .reference-hero > img.hero-slide { transition:none; } }
+
+.home-contact{text-align:center;padding:65px 4% 85px;background:#fff;color:#222}.home-contact h2{font:400 28px Playfair Display,Georgia,serif}.home-contact-options{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:30px}.home-contact-options a{min-width:150px;padding:16px 22px;border:1px solid #bdbdbd;font-size:12px;letter-spacing:.08em;color:#777}.home-contact p{font-size:13px;color:#777}.package-no-photo{grid-template-columns:1fr!important}.package-no-photo .package-content{max-width:760px}
+
+/* White package panels separated by a black background. */
+#wedding-packages { background:#111; color:#fff; }
+#wedding-packages > p, #wedding-packages > .eyebrow { color:#ddd; }
+#wedding-packages .package-grid { display:grid; grid-template-columns:1fr; gap:24px; }
+#wedding-packages .package { display:grid; grid-template-columns:minmax(0, 1.4fr) minmax(240px, 1fr); align-items:center; gap:5%; padding:48px; background:#fff; color:#111; border:0; }
+#wedding-packages .package p, #wedding-packages .package li, #wedding-packages .package strong { color:#111; }
+#wedding-packages .package-photo { width:100%; height:auto; object-fit:contain; }
+@media(max-width:700px) { #wedding-packages .package-grid {gap:16px} #wedding-packages .package { display:flex; flex-direction:column; align-items:stretch; gap:24px; padding:28px 22px; } #wedding-packages .package-photo { max-width:none; } }
+
+#sessions {
+  padding: clamp(100px, 9vw, 142px) 5% clamp(28px, 4vw, 60px);
+  min-height: 0;
+  background: #f6f4ef;
+}
+.session-offer {
+  width: min(100%, 780px);
+  margin: 0 auto;
+  padding: clamp(32px, 3.8vw, 60px) clamp(18px, 4vw, 65px);
+  border: 1px solid #cfc7b9;
+  background: #fcfbf8;
+  color: #292720;
+  text-align: center;
+}
+.session-offer h1 {
+  margin: 0 auto;
+  font: 400 clamp(32px, 3.9vw, 59px)/1.03 ForumLocal, Georgia, serif;
+  text-wrap: balance;
+}
+.session-unit { margin: 26px 0 5px; font-size: 14px; line-height: 1.45; color: #59554d; }
+.session-rate { margin: 0; font: 400 clamp(43px, 5vw, 66px)/1.12 ForumLocal, Georgia, serif; }
+.session-rate abbr { font: 400 .29em UbuntuLocal, sans-serif; letter-spacing: .08em; text-decoration: none; }
+.session-inclusions {
+  list-style: none; margin: 24px auto 0; padding: 20px 0 0;
+  border-top: 1px solid #d9d3c9; max-width: 500px; font-size: 15px; line-height: 1.55;
+}
+.session-inclusions li + li { margin-top: 3px; }
+.session-long { margin: 13px 0 0; font-size: 13px; line-height: 1.5; color: #625e55; }
+#sessions:not(.route-hidden) + .home-contact { padding: clamp(32px, 4vw, 58px) 5%; }
+#sessions:not(.route-hidden) + .home-contact h2 { margin: 0; font: 400 clamp(27px, 3vw, 40px)/1.15 ForumLocal, Georgia, serif; text-wrap: balance; }
+#sessions:not(.route-hidden) + .home-contact .home-contact-options { gap: 8px; margin-top: 20px; }
+#sessions:not(.route-hidden) + .home-contact a { color: #45423c; }
+#sessions:not(.route-hidden) + .home-contact a:hover { color: #fff; background: #292720; }
+.session-gallery-mosaic { position: relative; }
+.session-gallery-mosaic img { display: block; width: 100%; height: auto; }
+.session-gallery button { margin: 0; border: 0; padding: 0; background: transparent; color: inherit; }
+.session-gallery-mosaic button { position: absolute; cursor: zoom-in; }
+.session-gallery button:focus-visible { outline: none; }
+.session-gallery button:focus-visible::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: CanvasText;
+  border: 2px solid Canvas;
+  pointer-events: none;
+}
+.session-photo-rows {
+  display: flex;
+  flex-wrap: wrap;
+  --row-unit: 17.5%;
+}
+.session-photo-rows button {
+  position: relative;
+  flex: var(--photo-ratio) 1 calc(var(--row-unit) * var(--photo-ratio));
+  min-width: 0;
+  display: block;
+  cursor: zoom-in;
+}
+.session-photo-rows img { display: block; width: 100%; height: auto; }
+@media (max-width: 1100px) { .session-photo-rows { --row-unit: 25%; } }
+@media (max-width: 700px) {
+  #sessions { padding: calc(var(--site-header-height, 110px) + 18px) 14px 24px; }
+  .session-photo-rows { --row-unit: 60%; }
+  .session-photo-rows button:nth-last-child(-n+3) { --row-unit: 44%; }
+  .session-inclusions { font-size: 14px; }
+  #sessions:not(.route-hidden) + .home-contact .home-contact-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 360px; margin-inline: auto; }
+  #sessions:not(.route-hidden) + .home-contact a { min-width: 0; padding: 14px 6px; }
+}
